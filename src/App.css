@@ -1,0 +1,69 @@
+.login,
+.task,
+.user-card {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  cursor: move;
+}
+
+.admin-panels {
+  display: flex;
+  gap: 20px;
+}
+
+.user-card {
+  background: #f0f0f0;
+}
+
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+}
+
+.task-item{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-task {
+    width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-task.completed {
+    background: #e8f5e8;
+    border-color: #4caf50;
+}
+
+.user-task label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.user-task input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.user-task.completed {
+    text-decoration: line-through;
+    color: #666;
+}
