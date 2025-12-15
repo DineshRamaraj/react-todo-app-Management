@@ -43,7 +43,7 @@ const TaskItem = ({
         <select
           onChange={(e) => onAssign(task.id, e.target.value)}
           defaultValue=""
-          style={{marginRight: "10px"}}
+          style={{ marginRight: "10px" }}
         >
           {availableUsers.map((user) => (
             <option key={user.id} value={user.id}>
