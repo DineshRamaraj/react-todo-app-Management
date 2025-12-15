@@ -25,7 +25,7 @@ const TaskItem = ({
     hover: (item) => {
       if (item.index !== index) {
         onReorder(item.index, index);
-        item.index = index; // update the dragged item's index
+        item.index = index;
       }
     },
   }));
